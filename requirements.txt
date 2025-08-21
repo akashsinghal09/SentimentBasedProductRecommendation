@@ -1,0 +1,14 @@
+# Core Python packages
+Flask==3.1.1
+pandas==2.2.2
+numpy==2.0.2
+scikit-learn==1.6.1
+nltk==3.9.1
+spacy==3.8.7
+requests==2.32.3
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+pickle-mixin
+
+# For web app and deployment
+gunicorn
+requests
