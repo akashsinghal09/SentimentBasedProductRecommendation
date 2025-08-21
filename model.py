@@ -11,7 +11,11 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer
 from nltk.stem import WordNetLemmatizer
+import nltk
 
+# Ensure nltk data is available on Render
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords')
 
 
